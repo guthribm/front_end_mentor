@@ -1,0 +1,142 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+body {    
+    position: relative;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1440px;
+    height: 900px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    width: 70%;
+    line-height: 1.8;
+    word-spacing: .1rem;
+}
+
+.body-container {
+    display: flex;      
+    width: 85%;
+    height: 55%;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+}
+
+img { 
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+    filter: opacity(.5) contrast(90%) brightness(.9);
+}
+
+.main-heading {
+    line-height: 1.3;
+    color: white;
+    width: 80%;
+    font-size: 2.5rem;
+    
+}
+
+.insights {
+    color: #6732A8;
+    font-family: 'Inter', sans-serif;
+    width: 85%;
+}
+
+.right-container {
+    width: 50%;
+    height: auto;
+    background-color: #6732A8;
+    border-radius: 0 8px 8px 0;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    /* background-color: #ff2050; */
+}
+
+.top-portion {
+    width: 90%;
+    padding: 50px;
+    /* background-color: orange; */
+}
+
+.bottom-portion {  
+
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    
+    width: 70%;
+    padding-left: 8%;
+    padding-bottom: 12%;
+}
+
+.stat {
+    
+    line-height: .5;
+    
+}
+
+.stat h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
+}
+
+.stat p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 1rem; 
+    line-height: .5;
+    letter-spacing: .1rem;
+    font-family: 'Lexend Deca', serif;
+}
+
+.attribution {
+    width: 55%;
+    display: flex;
+    padding: 50px;
+    font-size: 1rem;
+}
+
+.attribution p {
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    color:#42F5AF; 
+    top: 150px;   
+}
+
+.attribution a {
+    color: rgb(138, 171, 241);
+}
+
+
+
+.signature a {
+    color: #F5CE73;
+}
