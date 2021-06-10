@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![my_screenshot](images/frontend_mentor_screen_grab_01.png)
+![my_screenshot](./images/frontend_mentor_screen_grab_01.png)
 
 ### Links
 
