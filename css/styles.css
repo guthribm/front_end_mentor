@@ -1,6 +1,65 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Lexend Deca', sans-serif; */
 
+/* @media screen and (max-width: 900px) { 
+p .body-container {
+    width: 50%;
+    background-color: red;
+    color: yellow;
+}
+} */
+
+@media (max-width: 375px) {
+    
+    .body-container {
+        flex-direction: column-reverse;
+        width: 90%;
+        height: 100%;
+    }
+
+    .right-container {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+        padding: 10px;
+    }
+
+    img {
+        border-radius: 8px 8px 0 0;        
+    }
+
+    .left-container {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .top-portion {
+        width: 100%;
+        
+    }
+
+    .bottom-portion {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    body {
+        width: 375px;
+        height: 100%;
+    }
+
+    
+}
+
 body {    
     position: relative;
     background-color: hsl(233, 47%, 7%);
