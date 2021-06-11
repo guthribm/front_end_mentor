@@ -9,111 +9,6 @@ p .body-container {
 }
 } */
 
-@media (max-width: 375px) {
-    
-    .body-container {
-        flex-direction: column-reverse;
-        width: 85%;
-        height: auto;
-        align-items: center;
-        margin-top: 90px;
-        
-    }
-
-    .right-container {
-        width: 100%;
-        border-radius: 8px 8px 0 0;
-    }
-
-    .main-heading {
-        width: 88%;
-        text-align: center;
-        padding: 20px;
-        font-size: 2.0rem;
-        margin: 0;
-        line-height: 1.1;
-    }
-
-    p {
-        width: 75%;
-        padding: 20px;
-        word-spacing: 0;
-    }
-
-    img {
-        border-radius: 8px 8px 0 0;        
-    }
-
-    .left-container {
-        width: 100%;
-        text-align: center;
-        padding: 0;
-        align-items: center;
-        position: relative;
-        bottom: 4px;
-        background-color: hsl(244, 38%, 16%);
-    }
-
-    .top-portion {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0%;
-    }
-
-    .bottom-portion {
-        flex-direction: column;
-        width: 80%;
-        padding: 0;
-        align-items: center;
-    }
-
-    .stat {
-        line-height: 0;
-        padding: 10px;
-    }
-
-    .stat p {
-        font-size: .9rem; 
-        
-        letter-spacing: 0rem;
-    }
-
-    .footer {
-        
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .challenge {
-        line-height: 1.2;
-        width: 60%;
-        padding: 0;
-    }
-
-    .signature {
-        line-height: 1.2;
-        width: 55%;
-        padding: 0;
-    }
-
-    .target {
-        padding: 0;
-        width: auto;
-    }
-
-    body {
-        width: auto;
-        /* height: 100%; */
-    }
-
-    
-}
-
-
-
-
 body {    
     position: relative;
     background-color: hsl(233, 47%, 7%);
@@ -253,20 +148,20 @@ img {
     text-decoration: underline;
 }
 
-
 .target {
     width: 30%;
     font-family: 'Inter';
+    font-size: 1.1rem;
 }
 
 .target a {
-    color: rgb(138, 171, 241);
+    color: #42f5af;
     font-size: 1.1rem;
     text-decoration: none;
 }
 
 .target a:hover {
-    color: rgb(79, 104, 158);
+    color: #36A856;
     text-decoration: underline;
 }
 
@@ -285,4 +180,114 @@ img {
 .signature a:hover {
     color: #36A856;
     text-decoration: underline;
+}
+
+
+@media (max-width: 375px) {
+    
+    .body-container {
+        flex-direction: column-reverse;
+        width: 85%;
+        height: auto;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+
+    .right-container {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .main-heading {
+        width: 88%;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.8rem;
+        margin: 0;
+        line-height: 1.1;
+    }
+
+    p {
+        width: 90%;
+        padding: 20px;
+        word-spacing: 0;
+        margin: 0;        
+    }
+
+    img {
+        border-radius: 8px 8px 0 0;        
+    }
+
+    .left-container {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        position: relative;
+        bottom: 4px;
+        background-color: hsl(244, 38%, 16%);
+    }
+
+    .top-portion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .bottom-portion {
+        flex-direction: column;
+        width: inherit;
+        padding: 0;
+        align-items: center;
+    }
+
+    .stat {
+        line-height: 0;
+        padding: 10px;
+    }
+
+    .stat p {
+        font-size: .8rem; 
+        padding: 5px 0 25px 0;
+        letter-spacing: 0.04rem;
+    }
+
+    .footer {
+        
+        flex-direction: column;
+        align-items: center;
+    }   
+
+    .challenge {
+        line-height: 1.2;
+        width: 60%;
+        padding: 0;
+    }
+
+    .signature {
+        line-height: 1.2;
+        width: 55%;
+        padding: 0;
+    }
+
+    .target {
+        padding: 0;
+        width: auto;
+        line-height: 1.1rem;
+    }
+
+    .foot-item {
+        margin: 20px auto;
+        width: auto;
+    }
+
+    body {
+        width: auto;
+        height: 100%;
+    }
+
+    
 }
