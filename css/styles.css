@@ -13,8 +13,11 @@ p .body-container {
     
     .body-container {
         flex-direction: column-reverse;
-        width: 90%;
-        height: 100%;
+        width: 85%;
+        height: auto;
+        align-items: center;
+        margin-top: 90px;
+        
     }
 
     .right-container {
@@ -22,13 +25,19 @@ p .body-container {
         border-radius: 8px 8px 0 0;
     }
 
-    h1 {
-        width: 100%;
+    .main-heading {
+        width: 88%;
+        text-align: center;
+        padding: 20px;
+        font-size: 2.0rem;
+        margin: 0;
+        line-height: 1.1;
     }
 
     p {
-        width: 100%;
-        padding: 10px;
+        width: 75%;
+        padding: 20px;
+        word-spacing: 0;
     }
 
     img {
@@ -39,26 +48,71 @@ p .body-container {
         width: 100%;
         text-align: center;
         padding: 0;
+        align-items: center;
+        position: relative;
+        bottom: 4px;
+        background-color: hsl(244, 38%, 16%);
     }
 
     .top-portion {
         width: 100%;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0%;
     }
 
     .bottom-portion {
         flex-direction: column;
-        width: 100%;
-        padding-left: 0;
+        width: 80%;
+        padding: 0;
+        align-items: center;
+    }
+
+    .stat {
+        line-height: 0;
+        padding: 10px;
+    }
+
+    .stat p {
+        font-size: .9rem; 
+        
+        letter-spacing: 0rem;
+    }
+
+    .footer {
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .challenge {
+        line-height: 1.2;
+        width: 60%;
+        padding: 0;
+    }
+
+    .signature {
+        line-height: 1.2;
+        width: 55%;
+        padding: 0;
+    }
+
+    .target {
+        padding: 0;
+        width: auto;
     }
 
     body {
-        width: 375px;
-        height: 100%;
+        width: auto;
+        /* height: 100%; */
     }
 
     
 }
+
+
+
 
 body {    
     position: relative;
@@ -186,19 +240,33 @@ img {
     width: 30%;
     color: #F5CE73;
     font-size: 1.1rem;
+    font-family: 'Inter';
 }
 
 .challenge a {    
-    color: #8b7045;
+    color: #42f5af;
+    text-decoration: none;
 }
+
+.challenge a:hover {
+    color: #36A856;
+    text-decoration: underline;
+}
+
 
 .target {
     width: 30%;
+    font-family: 'Inter';
 }
 
 .target a {
     color: rgb(138, 171, 241);
     font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.target a:hover {
+    color: rgb(79, 104, 158);
     text-decoration: underline;
 }
 
@@ -210,9 +278,11 @@ img {
 }
 
 .signature a {    
-    color: #42f5af;    
+    color: #42f5af; 
+    text-decoration: none;   
 }
 
 .signature a:hover {
     color: #36A856;
+    text-decoration: underline;
 }
