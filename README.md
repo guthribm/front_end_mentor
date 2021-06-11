@@ -1,7 +1,7 @@
 
 
 # Hello and Welcome!
-**Hello, my name is Brandon and I am new to web design. I've been studying a course from Udemy on web developement for about a month now.**
+**Hello, my name is Brandon and I am an aspiring web designer. I've been studying a course from Udemy on web developement for about a month now.**
 **My methods may not be the best as far as layout choice, postioning, etc but I am open to feedback on my design. The following is my solution**
 **and a very brief overview of my process and what I learned. Thank you for taking the time to read this!**
 
